@@ -38,14 +38,26 @@
         <% if (session.user) { %>
             <a href="/users/<%= session.user.id %>/quizzes">Mis Preguntas</a>
         <% } %>
+        <% if (session.user) { %>
+            <a href="/users/<%= session.user.id %>/favourites">Mis Favoritos</a>
+        <% } %>
         <a href="/author">Créditos</a>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/practica52
         <% if (session.user) { %>
            <a href="/users">Usuarios</a>
         <% } %>
-=======
+
         <a href="/help">Ayuda</a>
+<<<<<<< HEAD
 >>>>>>> origin/practica51
+=======
+	<a href="/quizzes/randomplay">Jugar</a>
+
+>>>>>>> origin/practica52
     </nav>
 
     <section class="main" id="mainSection">
